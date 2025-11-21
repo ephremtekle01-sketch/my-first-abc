@@ -1,0 +1,22 @@
+.my-button {
+  background-color: rgb(16, 210, 190);
+  color: rgb(242, 245, 247);
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s ease; /* Smooth transition for background-color */
+}
+
+.my-button:hover {
+  background-color: rgb(202, 216, 7); /* New background color on hover */
+} .my-box {
+  width: 100px;
+  margin: 30px;
+  height: 100px;
+  background-color: rgb(30, 209, 225);
+  transition: transform 0.3s ease-out; /* Smooth transition for transform */
+}
+
+.my-box:hover {
+  transform: scale(1.1); /* Scale up the box by 10% on hover */
+}
